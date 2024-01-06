@@ -18,7 +18,7 @@ However fear not, this project uses [React Native Expo](https://reactnative.dev/
 
 You will see that React Native components import React and uses hooks in the same way in a web-app, but instead of h1 and div you have a set of in-built components, like Tetx and View.
 
-Look at the before linked documentation to know more about how to use them.
+Look at the before-linked documentation to know more about how to use them.
 
 ## Getting started
 
@@ -50,7 +50,15 @@ Once you are familiar with the existing code and with the dictionary API
 * Display the results from the get call in the way you prefer: you can choose to display besides the definitions also the phonetics, synonyms and other info about the searched word
 * Improve the styling by modifying the current styling helpers and palette, and ensure all your components look the same! 
 * Add error handling flow: right now we are not handling possible errors, ensure your code is ready in case a 404 arrives!
-  
+
+**Extra**
+
+* Add a [new API](https://www.pexels.com/api/documentation/)to this project to show also an image representing the searched word
+* Personalise the app even more by incorporating a custom font
 
 
 ## Additional Resources
+
+* To find [color inspiration](https://colorhunt.co/)
+* [React Native components](the https://reactnative.dev/docs/components-and-apis)
+  
