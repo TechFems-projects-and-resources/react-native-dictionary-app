@@ -14,13 +14,22 @@ React Native is an open-source framework developed by Facebook/Meta for building
 
 When creating a React or Vanilla JS project, you can see the product of your code in the browser, in this case, things are different - as React Native develops a mobile app, usually you will need to setup Android Studio or Xcode tools to run the code in a iPhone or android emulators.
 
-However fear not, this project uses (React Native Expo)[https://reactnative.dev/docs/environment-setup].
-
-
+However fear not, this project uses (React Native Expo)[https://reactnative.dev/docs/environment-setup], so you will be able to run your code in your own mobile phone as we will explain in the following section.
 
 ## Getting started
 
+Once you cloned the repository on your own machine
+
+`cd react-native-dictionary-app`
+
+Run in the terminal
+
+`yarn expo start`
+
+You will see a QR code, download the Expo Go app in your own mobile device to scan it and so see your dictionary app!
+
 ## Functionality and structure overview
+
 
 ## Code the next steps!
 
