@@ -60,5 +60,5 @@ Once you are familiar with the existing code and with the dictionary API
 ## Additional Resources
 
 * To find [color inspiration](https://colorhunt.co/)
-* [React Native components](the https://reactnative.dev/docs/components-and-apis)
+* [React Native components](https://reactnative.dev/docs/components-and-apis)
   
