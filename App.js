@@ -1,11 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
+import Main from './src/components/main';
+import { colors } from './src/styles/themes';
+import { fontsSize, margin } from './src/styles/helpers';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text style={styles.title}>RN Dictionary App</Text>
+      <Main />
     </View>
   );
 }
@@ -13,8 +14,13 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: colors.main.primary,
+    alignItems: "left"
   },
-});
+  title: {
+    fontSize: fontsSize.L,
+    margin: margin.M,
+    color: colors.fonts.secondary
+  }
+})
+
