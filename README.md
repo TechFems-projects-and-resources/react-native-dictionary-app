@@ -40,8 +40,8 @@ As a summary, under src/ you will find
 
 * a component folder, containing already the basic part of the application, like a searchBar component, a core subfolder with a card component
 * a style folder, which contains a helper and themes files: like a real-life project, this dictionary uses a unified way to handle styling to ensure all part of the app looks coherents
-* an API folder, with already the connection to the (dictionary api)[and https://dictionaryapi.dev/]
-* A Context provider - if you never used this before, check the [React documentation](and https://react.dev/learn/passing-data-deeply-with-context) about Context and useContext - it's a way to share information across components avoiding overusing props. We suggest using it as it is a good practice to avoid prop drilling! 
+* an API folder, with already the connection to the [dictionary api](https://dictionaryapi.dev/)
+* A Context provider - if you never used this before, check the [React documentation](https://react.dev/learn/passing-data-deeply-with-context) about Context and useContext - it's a way to share information across components avoiding overusing props. We suggest using it as it is a good practice to avoid prop drilling! 
   
 ## Code the next steps!
 
