@@ -10,11 +10,11 @@ You will also notice this project uses Axios, if you are not familiar with it yo
 
 ## Some theory before start 
 
-(React Native)[https://reactnative.dev/docs/getting-started] is an open-source framework developed by Facebook/Meta for building cross-platform mobile applications. It allows developers to write code in JavaScript and create native-like apps for iOS and Android platforms. 
+[React Native](https://reactnative.dev/docs/getting-started) is an open-source framework developed by Facebook/Meta for building cross-platform mobile applications. It allows developers to write code in JavaScript and create native-like apps for iOS and Android platforms. 
 
 When creating a React or Vanilla JS project, you can see the product of your code in the browser, in this case, things are different - as React Native develops a mobile app, usually you will need to setup Android Studio or Xcode tools to run the code in a iPhone or android emulators.
 
-However fear not, this project uses (React Native Expo)[https://reactnative.dev/docs/environment-setup], so you will be able to run your code in your own mobile phone as we will explain in the following section.
+However fear not, this project uses [React Native Expo](https://reactnative.dev/docs/environment-setup), so you will be able to run your code on your own mobile phone as we will explain in the following section.
 
 You will see that React Native components import React and uses hooks in the same way in a web-app, but instead of h1 and div you have a set of in-built components, like Tetx and View.
 
@@ -38,16 +38,19 @@ This project is partially started, so once you get it up and running, before sta
 
 As a summary, under src/ you will find
 
-* a component folder, containing already the basic part of the application, like a searchBar component
-* a style folder, which contains an helper and themes files: like a real-life project, this dictionary uses a unified way to handle styling to ensure all part of the app looks coherents
-* a api folder, with already the connection to the (dictionary api)[https://dictionaryapi.dev/]
-
+* a component folder, containing already the basic part of the application, like a searchBar component, a core subfolder with a card component
+* a style folder, which contains a helper and themes files: like a real-life project, this dictionary uses a unified way to handle styling to ensure all part of the app looks coherents
+* an API folder, with already the connection to the [dictionary api](and https://dictionaryapi.dev/)
+* A Context provider - if you never used this before, check the (React documentation)[https://react.dev/learn/passing-data-deeply-with-context] about Context and useContext - it's a way to share information across components avoiding overusing props. We suggest using it as it is a good practice to avoid prop drilling! 
+  
 ## Code the next steps!
 
-*
-*
-*
-*
-*
+Once you are familiar with the existing code and with the dictionary API
+
+* Display the results from the get call in the way you prefer: you can choose to display besides the definitions also the phonetics, synonyms and other info about the searched word
+* Improve the styling by modifying the current styling helpers and palette, and ensure all your components look the same! 
+* Add error handling flow: right now we are not handling possible errors, ensure your code is ready in case a 404 arrives!
+  
+
 
 ## Additional Resources
