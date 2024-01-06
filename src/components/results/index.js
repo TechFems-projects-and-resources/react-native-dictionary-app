@@ -13,7 +13,7 @@ export default function Results() {
             <FlatList
                 data={results.definitions}
                 renderItem={({ item }) => <Card title={searchedWord} description={item.definition} />}
-
+                keyExtractor={(item) => `item-${item.definition}}`}
                 horizontal
             />
         </>
